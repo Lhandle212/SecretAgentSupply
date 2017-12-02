@@ -1,0 +1,136 @@
+/*-------body-------*/
+
+body {
+  font-size: 18px;
+  font-family: Helvetica sans-serif;;
+  line-height: 1.4rem;
+}
+
+/*-------Company Header-------*/
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5em;
+}
+
+.container img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.company .container span {
+  padding: 0.66rem 0;
+}
+
+/*-------Main Banner-------*/
+
+.main-banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 0 3rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+h4, h1 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.25rem 0;
+}
+
+/*-------Navigation-------*/
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  padding: 0.75rem 0;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: center;
+}
+
+/*-------Products-------*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products {
+  width: 30%;
+}
+
+.products img {
+  display: block;
+  border: 4px solid black;
+  padding: 2rem;
+  height: 9rem;
+}
+
+.products span {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.products, .company-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+/*-------Company Info-------*/
+
+.title {
+  background-color: black;
+  color: white;
+  width: 35%;
+  padding: 1rem 0 1rem 2rem;
+}
+
+/*-------Footer-------*/
+
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  margin-top: 4rem;
+}
+
+footer .container {
+  text-align: left;
+}
