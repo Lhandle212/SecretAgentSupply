@@ -70,6 +70,7 @@ nav {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   padding: 0.75rem 0;
   align-items: center;
   justify-content: space-between;
@@ -82,14 +83,11 @@ li {
 }
 
 /*-------Products-------*/
-.flex-container {
+.product-container, .company-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-}
-
-.products {
-  width: 30%;
+  flex-basis: 30%;
 }
 
 .products img {
@@ -105,11 +103,10 @@ li {
   color: white;
   text-align: center;
   padding: 0.5rem 0;
+  margin-bottom: 3rem;
 }
 
-.products, .company-info {
-  display: flex;
-  justify-content: space-between;
+.products {
   margin-top: 3rem;
 }
 
@@ -129,8 +126,4 @@ footer {
   color: white;
   height: 5rem;
   margin-top: 4rem;
-}
-
-footer .container {
-  text-align: left;
 }
